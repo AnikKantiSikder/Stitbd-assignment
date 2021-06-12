@@ -1,0 +1,75 @@
+
+body{
+    font-family:'Roboto';
+}
+.nav{
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+}
+
+.navbar{
+    padding: 0 3.5rem;
+}
+
+.navbar ul li a{
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.collapse ul {
+    padding-left: 2.5rem;
+}
+.collapse ul li {
+    padding: 0 0.7rem;
+}
+.header-icon{
+    display: flex;
+}
+.header-icon i{
+    padding:0 0.5rem;
+}
+
+.header-icon-iteam{
+    margin:0 5px;
+}
+
+.header-icon .header-icon-iteam a{
+    color: black;
+    font-size: 12px;
+}
+.header-icon-iteam i{
+    display: block;
+}
+
+.search-box .form-control{
+    width: 31.25rem;
+    border: 0;
+    box-shadow: none;
+    
+}
+
+.search-box .search-icon{
+    background: transparent;
+    border: 0;
+    
+}
+
+.search-box{
+    border: 1px solid #f1f1f1;
+    padding-left: 0.5rem;
+    margin-right: 3rem;
+}
+
+.search-box .search-icon i{
+    color: grey;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.267)!important;
+    opacity: 1;
+    font-weight: 350;
+    font-size: 14px;
+    font-family: 'Roboto';
+  }
