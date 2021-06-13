@@ -2,6 +2,8 @@
 body{
     font-family:'Roboto';
 }
+
+/* Navbar starts */
 .nav{
     /* padding-left: 4rem;
     padding-right: 4rem; */
@@ -73,3 +75,121 @@ input::placeholder {
     font-size: 14px;
     font-family: 'Roboto';
   }
+  /* Navbar ends */
+
+  /* Main banner section starts */
+
+  .banner-section{
+      margin: 1.5rem 3.5rem;
+  }
+
+  .banner-section img{
+      max-width: 100%;
+  }
+
+  .banner-child-left{
+      padding-right: 0;
+      height: 10rem;
+  }
+
+  .banner-child-mid-one{
+      padding-left: 0;
+      padding-right: 0;
+  }
+
+  .banner-child-mid-two{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .banner-child-right{
+    padding-left: 0;
+  }
+  /* Main banner section ends */
+
+  /* Bank info starts*/
+  .bank-info{
+    margin: 1.5rem 3.5rem;
+  }
+  .bank-info img{
+    max-width: 100%;
+  }
+  /* Bank info ends*/
+
+   /* Exciting deals starts*/
+   .exciting-deals-header {
+      display: block;
+      text-align: center;
+      margin-bottom: 1rem;
+   }
+
+   .exciting-deals-header img {
+    max-width: 50%;
+    }
+
+    .exciting-deals-content img{
+        max-width: 100%;
+    }
+
+    .exciting-deals-content .deals{
+        padding: 0;
+    }
+/* Exciting deals ends*/
+
+/* Top offers her starts*/
+    .top-offers-her-header {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .top-offers-her-header img {
+    max-width: 50%;
+    }
+
+    .top-offers-her-content img{
+        max-width: 100%;
+    }
+
+    .top-offers-her-content .her-offer{
+        padding: 0;
+    }
+    .offset-md-1 {
+        margin-left: 0.333%;
+    }
+    .item{
+        padding: 0;
+    }
+    .space{
+        margin:0;
+    }
+/* Top offers her ends*/
+    
+/* Top offers him starts*/
+.top-offers-him-header {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.top-offers-him-header img {
+max-width: 50%;
+}
+
+.top-offers-him-content img{
+    max-width: 100%;
+}
+
+.top-offers-him-content .him-offer{
+    padding: 0;
+}
+.offset-md-1 {
+    margin-left: 0.333%;
+}
+.item{
+    padding: 0;
+}
+.space2{
+    margin:0;
+}
+/* Top offers him ends*/ 
